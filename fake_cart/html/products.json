@@ -1,0 +1,27 @@
+products = [
+    {"name":"Red Ball",
+      "sku": "123456789",
+      "price": "50.66"},
+
+    {"name":"Blue Balls",
+     "sku": "123456780",
+     "price": "500"},
+
+    {"name":"Icebreakers Duo",
+     "sku": "03421105",
+     "price": "2.63"},
+
+    {"name":"uDine Rewards",
+     "sku": "6104578662943184",
+     "price": "58.00"},
+
+    {"name":"Velcro",
+     "sku": "075967911409",
+     "price": "4.73"},
+
+    {"name":"Caned Air",
+     "sku": "086216118456",
+     "price": "3.78"}
+    ];
+
+tax = 0.13;

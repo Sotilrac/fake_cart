@@ -1,0 +1,31 @@
+html {
+    color: #222;
+    font-size: 2em;
+    line-height: 1.4;
+    background-color: #66ccff;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cart {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    text-align: center;
+}
+
+thead {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.total {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    color: white;
+}
+
+.text_input {
+    font-size: 1em;
+}

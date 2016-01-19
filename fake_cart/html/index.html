@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <title>Softbank Cart</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="products.json"></script>
+    </head>
+    <body>
+        <h1>Shopping Cart</h1>
+        <table id="cart_table" class="cart">
+            <thead>
+                <tr>
+                    <th>SKU</th>
+                    <th>Name</th>
+                    <th>Price ($)</th>
+                </tr>
+            </thead>
+            <tbody class="total">
+                <tr>
+                    <td></td>
+                    <td>Total</td>
+                    <td id="cart_total"></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <div id="input">
+            <input class="text_input" id="sku_input" type="text" name="" value="" placeholder="Enter an SKU #">
+            <span class="btn" id="buy_btn">Buy</span>
+        </div>
+    </body>
+    <script type="text/javascript" src="cart.js"></script>
+</html>
